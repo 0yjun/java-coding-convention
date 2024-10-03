@@ -5,7 +5,7 @@
 ### 1.1 IntelliJ IDEA
 - **코드 스타일 설정**: 
   - Java 코드 스타일을 Google 스타일 가이드로 설정
-  - `Editor > Code Style > Java`에서 설정 조정
+  - `Editor > Code Style > Java`에서 설정을 조정
 - **플러그인**:
   - Lombok 플러그인 설치
   - CheckStyle 플러그인으로 코드 품질 검사
@@ -15,11 +15,11 @@
 
 #### IntelliJ Live Template 설정
 
-1. 설정 메뉴에서 **Live Template**으로 이동한다.  
-   //그림설명
+1. 설정 메뉴에서 **Live Template**으로 이동  
+   //그림설명 추가 필요
 
-2. Java 템플릿 하위에 **initcrudclass**를 추가한다.  
-   //그림설명
+2. Java 템플릿 하위에 **initcrudclass**를 추가  
+   //그림설명 추가 필요
 
 #### 템플릿 텍스트
 ```java
@@ -60,42 +60,40 @@ public class $FILE_NAME$ {
 | FILE_NAME   | fileNameWithoutExtension()                                                                                                                                              |
 
 ### 1.2 Visual Studio Code
-- 코드 스타일 설정:
+- **코드 스타일 설정**:
   - ESLint 및 Prettier 확장 설치
-  - settings.json 파일에서 포맷터 및 규칙 설정
-- 확장 프로그램:
+  - `settings.json` 파일에서 포맷터 및 규칙 설정
+- **확장 프로그램**:
   - Java Extension Pack 설치
   - TypeScript 및 JavaScript 관련 유용한 확장 프로그램 설치
-- 버전 관리 설정:
+- **버전 관리 설정**:
   - Git 통합 사용
-  - 기본 .gitignore 파일 추가
+  - 기본 `.gitignore` 파일 추가
 
 ### 1.3 Eclipse
-- 코드 스타일 설정:
+- **코드 스타일 설정**:
   - Eclipse 코드 스타일을 Google 스타일 가이드로 설정
-  - Window > Preferences > Java > Code Style > Formatter에서 설정 조정
-- 플러그인:
+  - `Window > Preferences > Java > Code Style > Formatter`에서 설정 조정
+- **플러그인**:
   - Lombok 플러그인 설치
   - FindBugs 플러그인으로 코드 품질 검사
-- 버전 관리 설정:
+- **버전 관리 설정**:
   - Git 통합 사용
-  - .gitignore 설정으로 IDE 파일 제외
+  - `.gitignore` 설정으로 IDE 파일 제외
 
 ## 2. 파일 신규 생성 규칙
 
 ### 2.1 Java
-- 클래스 파일:
-  파일을 생성한 후 기존 코드를 삭제한다.
-  Live Template의 initcrudclass를 사용해 CRUD 구조를 자동 완성한다.
-- 패키지 구조: 도메인 기반 패키지 구조 채택 (예: com.example.project.service)
-- 테스트 파일: *Test.java 형식으로 테스트 파일 작성 (예: UserServiceTest.java)
+- **클래스 파일**:
+  파일을 생성한 후 기본 코드를 삭제하고, Live Template의 `initcrudclass`를 사용해 CRUD 구조를 자동 완성
+- **패키지 구조**: 도메인 기반 패키지 구조 채택 (예: `com.example.project.service`)
+- **테스트 파일**: `*Test.java` 형식으로 테스트 파일 작성 (예: `UserServiceTest.java`)
 
 ### 2.2 JavaScript/TypeScript
-- 모듈 파일: 기본적으로 camelCase를 사용하여 파일명 작성 (예: userService.js, userService.ts)
-- 디렉토리 구조: 기능별 디렉토리 구조 사용 (예: /services, /components)
-- 테스트 파일: *.test.js 또는 *.spec.ts 형식으로 테스트 파일 작성 (예: userService.test.js, userService.spec.ts)
+- **모듈 파일**: 기본적으로 camelCase를 사용하여 파일명 작성 (예: `userService.js`, `userService.ts`)
+- **디렉토리 구조**: 기능별 디렉토리 구조 사용 (예: `/services`, `/components`)
+- **테스트 파일**: `*.test.js` 또는 `*.spec.ts` 형식으로 테스트 파일 작성 (예: `userService.test.js`, `userService.spec.ts`)
 
 ## 추가 설정 사항
-- 기타 템플릿: 필요에 따라 추가적인 템플릿을 설정한다.
-- 코드 리뷰 규칙: 코드 리뷰 시 유의해야 할 사항을 정리하여 팀원들과 공유한다.
-
+- **기타 템플릿**: 필요에 따라 추가적인 템플릿을 설정
+- **코드 리뷰 규칙**: 코드 리뷰 시 유의해야 할 사항을 정리하여 팀원들과 공유
