@@ -84,7 +84,9 @@ public class $FILE_NAME$ {
 ## 2. 파일 신규 생성 규칙
 
 ### 2.1 Java
-- 클래스 파일: 기본적으로 PascalCase를 사용하여 파일명 작성 (예: UserService.java)
+- 클래스 파일:
+  파일을 생성한 후 기존 코드를 삭제한다.
+  Live Template의 initcrudclass를 사용해 CRUD 구조를 자동 완성한다.
 - 패키지 구조: 도메인 기반 패키지 구조 채택 (예: com.example.project.service)
 - 테스트 파일: *Test.java 형식으로 테스트 파일 작성 (예: UserServiceTest.java)
 
