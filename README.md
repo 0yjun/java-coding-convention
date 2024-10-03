@@ -48,7 +48,7 @@ public class $FILE_NAME$ {
     // 5. delete
 /***********************************************************************************/
 }
-변수 편집 버튼을 클릭하여 변수를 지정한다. 아래는 변수 설정에 대한 도표이다:
+변수 편집 버튼을 클릭하여 변수를 지정한다.
 
 | 변수명      | 값                                                                                                                                                                       |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -56,7 +56,7 @@ public class $FILE_NAME$ {
 | ANNOTATION  | groovyScript("_1 =~ /([A-Z][a-z])$/ ? (_1 =~ /([A-Z][a-z])$/)[0][1] : '1'", "TestController")                                                                          |
 | FILE_NAME   | fileNameWithoutExtension()                                                                                                                                              |
 
-1.2 Visual Studio Code
+### 1.2 Visual Studio Code
 - 코드 스타일 설정:
   - ESLint 및 Prettier 확장 설치
   - settings.json 파일에서 포맷터 및 규칙 설정
@@ -67,7 +67,7 @@ public class $FILE_NAME$ {
   - Git 통합 사용
   - 기본 .gitignore 파일 추가
 
-1.3 Eclipse
+### 1.3 Eclipse
 - 코드 스타일 설정:
   - Eclipse 코드 스타일을 Google 스타일 가이드로 설정
   - Window > Preferences > Java > Code Style > Formatter에서 설정 조정
@@ -78,19 +78,19 @@ public class $FILE_NAME$ {
   - Git 통합 사용
   - .gitignore 설정으로 IDE 파일 제외
 
-2. 파일 신규 생성 규칙
+## 2. 파일 신규 생성 규칙
 
-2.1 Java
+### 2.1 Java
 - 클래스 파일: 기본적으로 PascalCase를 사용하여 파일명 작성 (예: UserService.java)
 - 패키지 구조: 도메인 기반 패키지 구조 채택 (예: com.example.project.service)
 - 테스트 파일: *Test.java 형식으로 테스트 파일 작성 (예: UserServiceTest.java)
 
-2.2 JavaScript/TypeScript
+### 2.2 JavaScript/TypeScript
 - 모듈 파일: 기본적으로 camelCase를 사용하여 파일명 작성 (예: userService.js, userService.ts)
 - 디렉토리 구조: 기능별 디렉토리 구조 사용 (예: /services, /components)
 - 테스트 파일: *.test.js 또는 *.spec.ts 형식으로 테스트 파일 작성 (예: userService.test.js, userService.spec.ts)
 
-추가 설정 사항
+## 추가 설정 사항
 - 기타 템플릿: 필요에 따라 추가적인 템플릿을 설정한다.
 - 코드 리뷰 규칙: 코드 리뷰 시 유의해야 할 사항을 정리하여 팀원들과 공유한다.
 
